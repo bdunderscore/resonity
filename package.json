@@ -1,11 +1,10 @@
-﻿{
+{
   "name": "nadena.dev.resonity",
   "displayName": "Resonity",
   "version": "0.0.1",
   "unity": "2022.3",
   "description": "",
-  "dependencies": {
-  },
+  "dependencies": {},
   "vpmDependencies": {
     "nadena.dev.ndmf": ">=1.7.0-rc.2 <2.0.0-a",
     "nadena.dev.ndmf.multiplatform": ">=0.0.1 <1.0.0-a"
