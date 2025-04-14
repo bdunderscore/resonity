@@ -32,6 +32,9 @@ public class Launcher
             throw new ArgumentNullException(nameof(pipeName), "Pipe name cannot be null");
         }
         
+        var gamePath = SteamUtils.GetGamePath(2519830);
+        resoniteBase = gamePath ?? defaultResoniteBase;
+        
         assemblyBase = resoniteBase + "\\Resonite_Data\\Managed\\";        
         
         System.Console.WriteLine("Starting Resonite Launcher");
